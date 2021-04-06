@@ -9,6 +9,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // const CopyWebpackPlugin = require('copy-webpack-plugin');
 // THIS PLUGIN IMPORTS ALIASES FROM tsconfig.json
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+// const ServiceWorkerInfoPlugin = require('./lib/sw-info-plugin');
 
 //  ! ADD THIS TO PACKAGE JSON when final version
 //  ? Webpack hot reload does not work with that
